@@ -1,0 +1,95 @@
+/* Full-page carousel */
+.carousel-full-img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* Captions */
+.carousel-caption {
+  bottom: 30%;
+  left: 5%;
+  right: auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px 40px;
+  border-radius: 15px;
+  max-width: 650px;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.carousel-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.carousel-desc {
+  font-size: 1.3rem;
+  color: #f8f9fa;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.carousel-caption .btn {
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 50px;
+}
+
+/* Indicators */
+.custom-indicators button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.7;
+  border: none;
+  margin: 0 5px;
+}
+
+.custom-indicators .active {
+  background-color: #007bff;
+  opacity: 1;
+}
+
+/* Controls */
+.custom-control {
+  filter: invert(100%);
+  width: 45px;
+  height: 45px;
+  background-size: 100% 100%;
+  border-radius: 50%;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .carousel-caption {
+    bottom: 20%;
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .carousel-title {
+    font-size: 2rem;
+  }
+
+  .carousel-desc {
+    font-size: 1rem;
+  }
+
+  .carousel-full-img {
+    height: 70vh;
+  }
+}

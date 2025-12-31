@@ -1,0 +1,62 @@
+/* -------------------------------------------------
+   🌟 EMPLOYEE MANAGEMENT SYSTEM – PROFESSIONAL NAVBAR CSS
+   ------------------------------------------------- */
+
+/* NAVBAR BACKGROUND */
+.custom-navbar {
+  background: linear-gradient(90deg, #fbc02d, #ffa000, #ff8f00);
+  padding: 12px 28px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+  border-bottom: 2px solid rgba(255,255,255,0.25);
+}
+
+/* NAV LINKS */
+.nav-link {
+  font-weight: 600;
+  color: #212529 !important;
+  margin-right: 12px;
+  letter-spacing: 0.4px;
+  transition: color 0.25s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #0056d2 !important;
+  transform: translateY(-2px);
+}
+
+/* LOGO */
+.ems-logo {
+  width: 42px;
+  height: 42px;
+  margin-right: 12px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}
+
+/* LOGOUT BUTTON */
+.logout-btn {
+  margin-left: 22px;
+  padding: 7px 18px;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 30px;
+  background-color: #212529;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.logout-btn:hover {
+  background-color: #000000;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+/* WELCOME TEXT */
+.welcome-text {
+  font-size: 18px;
+  color: #1a1a1a;
+  font-weight: 600;
+  margin-left: 15px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
